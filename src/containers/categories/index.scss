@@ -1,0 +1,20 @@
+@import "./../../assets/scss/variables";
+.categoryLink{
+    padding: 0px;
+}
+.cancelIcon {
+    font-size: xx-large;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.categories-loader{
+    position: fixed;
+      height: 100%;
+      width: 100%;
+      top: 0px;
+      div{
+        margin-top: 150px;
+      }
+  
+  }

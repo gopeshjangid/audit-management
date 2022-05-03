@@ -1,0 +1,39 @@
+@import './../../../assets/scss/variables';
+
+.message-container .fa {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    font-size: 2em; 
+}
+.message-container.alert-warning {
+    border-color: #f2e0a8;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px; 
+}
+.message-container.alert-success {
+    background-color: #3bb02e;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px; 
+}
+.message-container.alert-danger {
+    background-color: #d62020;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 3px;
+    padding-bottom: 3px; 
+}
+
+.icon-edit-pencil {
+    vertical-align: -3px;
+    margin-right: 5px; 
+}
+
+.subscriberName {
+    cursor: pointer;
+}

@@ -1,0 +1,309 @@
+@import './../../../assets/scss/variables';
+.dobErrorMsg {
+  padding-left: 17px;
+}
+
+.search {
+  tr {
+    cursor: pointer;
+  }
+}
+#memberId{
+  text-transform: uppercase;
+  &::placeholder{
+    text-transform: capitalize;
+  }
+}
+
+.get-claim-form {
+  //margin-bottom: 20px;
+  text-align: center;
+  //background-color: #00a79d;
+    padding: 25px;
+    border-radius: 5px;
+  .react-date-picker__wrapper {
+    margin-left: 0px;
+  }
+  .form-control {
+    @include border-radius(5px);
+  }
+  .form-group {
+    margin-bottom: 0px;
+    .btn-info {
+      height: size(40) !important;
+      width: size(230) !important;
+  }
+  }
+  .option-seperator {
+    p {
+      font-size: 11px;
+      position: relative;
+      color: $tab-disabled-bg-color;
+      font-weight: bold;
+      margin: 0;
+      &::before,
+      &::after {
+        content: '';
+        height: 2px;
+        display: block;
+        background: $table-border;
+        width: calc(50% - 20px);
+        position: absolute;
+        top: 8px;
+      }
+      &::before {
+        left: 0;
+      }
+      &::after {
+        right: 0;
+      }
+    }
+  }
+
+.get-claim-form {
+  .date-box {
+    padding-top: 0 !important;
+
+    .form-control{
+      width: 100% !important;
+      margin-bottom:10px;
+    }
+  }
+}
+
+
+
+}
+.custom-table-container{
+  overflow-x: scroll;
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+}
+.pagination-details :first-child {
+  margin-top: 0px;
+  margin-bottom: -1px;
+}
+
+.reportDownloadIcon {
+  width: size(24) !important;
+  height: size(24) !important;
+}
+.icon {
+  display: inline-block;
+  width: size(20);
+  height: size(20);
+  &-export {
+    background-image: url('../../../assets/images/export-2@1.5x.svg');
+    height: size(22);
+    width: size(17);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+}
+.export-container{
+  text-align: right;
+}
+.selectDropDownbox{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px !important;
+}
+.custom-Loader{
+  position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    div{
+      margin-top: 320px;
+    }
+
+}
+
+.text-box{
+  width: 200px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.btn-margin{
+  margin-left: 41% !important;
+}
+.search-wrapper{
+  border-radius: 5px !important;
+  background-color: white;
+   input{
+     margin-top: 0px !important;
+   }
+}
+.customButton{
+  width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    button{
+      padding: 10px 10px;
+    width: 145px;
+    }
+
+}
+.react-datepicker-wrapper{  
+  width: 100%;
+  input {
+    width: 100%;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: hsl(0,0%,100%);
+    border-color: hsl(0,0%,80%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: default;
+    padding: 2px 8px;
+    border-radius: 12px;
+    
+  }
+  
+}
+.select__menu {
+  text-align:left;
+}
+.picker {
+  grid-column: 5/10;
+  grid-row: 2/4;
+  background: cornflowerblue;
+  font-size: 80px;
+
+  input {
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #E3B924;
+    &:focus {
+      outline:none;
+    }
+  }
+}
+
+
+.btn-reset{
+  margin-left: 60px;
+  
+}
+
+.clear-Btn{
+  margin-left: 30px;
+}
+.select__control{
+  border-radius: 5px !important;
+  
+}
+.custom-calenderIcon{
+  position: absolute;
+    right: 23px;
+    top: 8px;
+    background-image: url('/static/media/calendar@1x.c98f16a7.svg');
+}
+.select__control:hover{
+  border-radius: 5px !important;
+}
+
+.reset{
+  text-align: center;
+  position: relative;
+  width: 1.25rem;
+  height: 0.75rem;
+}
+.span-label{
+  font-weight: 500;
+}
+.multiselect-container{
+  margin-bottom: 10px;
+}
+// .react-datepicker__close-icon{
+//   margin: -2px 22px;
+// }
+// .react-datepicker__close-icon::after{
+//   color: #D5CDCD;
+//   background-color: white;
+//   font-size: 20px;
+//   font-weight: 800;
+// }
+.react-date-picker__wrapper{
+    border-radius: 5px;
+    //width: 80%;
+    font-weight: 400;
+    height: 38px;
+    border-color: hsl(0,0%,80%);
+    position: relative;
+}
+.react-date-picker{
+  width: 100%;
+}
+.react-calendar{
+  width: 80%;
+}
+
+.react-date-picker__button svg {
+  width: 16px;
+  stroke:#D5CDCD !important;// #999999 !important;
+}
+.react-date-picker__button {
+  padding: 4px 10px;
+}
+.react-date-picker__inputGroup{
+  text-align: left !important;
+  padding-left: 10px !important;
+}
+
+.selectBox{
+  padding: 10px;
+  border: 1px solid #ccc;
+   border-radius: 5px;
+   cursor:pointer;
+   width:100%;
+   color:hsl(0,0%,50%);
+}
+#startDate{
+  width:100%;
+  float:right;
+  padding: 10px;
+  border: 1px solid #ccc;
+   border-radius: 5px; 
+   color:hsl(0,0%,50%);
+}
+.custom-round-btn{
+  float: right;
+}
+.select__control{
+  border-radius: 5px !important;
+  height:45px;
+  
+}
+.headingStyle{
+  text-align: center;
+  background-color: "#00a79d !important";
+}
+
+// .react-date-picker__calendar-button svg{
+//   background: url('../../../assets/images/ca.svg') !important;
+// }
+
+.icon-custom-calendar {
+  background: url('../../../assets/images/ca.svg') ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 11px !important;
+    right: 4px !important;
+}
+
+main {
+  overflow: scroll !important;
+}
+
+

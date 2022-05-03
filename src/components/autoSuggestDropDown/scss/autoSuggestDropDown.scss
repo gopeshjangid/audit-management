@@ -1,0 +1,146 @@
+.react-autosuggest__container {
+    position: relative;
+  }
+  
+  .react-autosuggest__input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   
+  }
+
+  .disabled-input {
+    background-color: #e9ecef;
+  }
+  
+  .react-autosuggest__input:focus {
+    outline: none;
+    color: #495057;
+    background-color: #ffffff;
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #97f5ef;
+  }
+  
+  .react-autosuggest__container--open .react-autosuggest__input {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+  }
+  
+  .react-autosuggest__suggestions-container {
+    display: none;
+    max-height: 260px;
+    overflow-y: auto;
+  }
+  
+  .react-autosuggest__container--open .react-autosuggest__suggestions-container {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 100%;
+    border: 1px solid #d3e0df;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+  }
+  
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-shadow: 0px 5px 6px  #dbe9e8;
+  }
+  
+  .react-autosuggest__suggestions-list li:hover {
+    background-color: #dbe9e8;
+  }
+  .react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .react-autosuggest__suggestion:not(:first-child) {
+    border-top: 1px solid #ddd;
+  }
+  
+  .react-autosuggest__suggestion--focused {
+    background-color: #0C7EAF;
+    color: #fff;
+  }
+  
+  .suggestion-content {
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  
+  .dancounsell {
+    background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/48.jpg);
+  }
+  
+  .ladylexy {
+    background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/48.jpg);
+  }
+  
+  .mtnmissy {
+    background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/mtnmissy/48.jpg);
+  }
+  
+  .steveodom {
+    background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/steveodom/48.jpg);
+  }
+  
+  .name {
+    // margin-left: 68px;
+    // line-height: 45px;
+  }
+  
+  .highlight {
+    color:rgb(0, 167, 157);
+    font-weight: bold;
+  }
+  
+  .react-autosuggest__suggestion--focused .highlight {
+    color: #120000;
+  }
+  .inputContainer {
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .input-search {
+    background-image: url("./../../../assets/icons/search-icon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+  }
+
+  .react-autosuggest__suggestions-list{
+    // max-height: 300px;
+    // overflow-y: auto;
+  }
+
+  .input-error{
+    border: 1px solid #dc3545;
+  }

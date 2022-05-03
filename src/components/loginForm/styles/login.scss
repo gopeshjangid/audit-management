@@ -1,0 +1,127 @@
+.login-container .head-2 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.login-container .subtitle {
+  color: #95989a!important;
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+}
+
+.LoginForm{
+  max-width: 24.1875rem;
+  margin: 0 auto;
+  font-size: .75rem;
+}
+
+
+  .login-input.form-control {
+    border: 1px solid #bbbdbf;
+    border-radius: .25rem;
+    background-color: #fff;
+    font-size: .9375rem;
+    line-height: 3.125rem;
+    height: 3.125rem;
+    font-weight: 400;
+    padding-left: .625rem;
+    color: #444;
+}
+
+.custom-effect-label.active {
+  top: .0625rem;
+  font-size: .625rem;
+  z-index: 10;
+  width: auto;
+  padding: 0;
+}
+
+.custom-effect-label {
+  position: absolute;
+  left: .6875rem;
+  top: .3125rem;
+  font-size: 1rem;
+  z-index: 1;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  color: #95989a;
+  width: 95%;
+  padding: .5rem 0;
+  cursor: text;
+}
+
+.input-group {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 1.25rem;
+}
+
+.responsive-new-user {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: .25rem;
+  margin-top: .25rem;
+  font-size: .875rem;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.login-container form[name=LoginForm] .btn-primary {
+  border: 1px solid #ed008b;
+  background-color: #ed008b;
+  width: 100%;
+  height: 3.125rem;
+  border-radius: 2.5rem;
+}
+
+.margin-top-30 {
+  margin-top: 30px;;
+}
+
+.login-container .logo-navbar {
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-container{
+  top: 35% !important;
+  left: 48% !important;
+}
+
+.mb-10{
+  margin-bottom: 10px !important;;
+}
+
+.error{
+  color: red;
+}
+
+.loginColumn{
+  margin-left: 25px;;
+}
+
+.new-user-reset , .forget-password-link{
+  color: #5586ef !important;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.success-text{
+  color: green;
+    padding: 15px;
+    margin: 10px;
+}
